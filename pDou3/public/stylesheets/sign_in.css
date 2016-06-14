@@ -1,0 +1,412 @@
+/*登录*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sign_on {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.sign_on .sign_in {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -162px 0 0 -208px;
+    width: 415px;
+    height: 325px;
+    border-radius: 5px;
+    background: #ffffff;;
+}
+
+.sign_on .sign_in .sign_top {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff9696;
+    color: #ffffff;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sign_on .sign_in .sign_close {
+    position: absolute;
+    top: 8px;
+    left: 374px;;;
+    width: 28px;
+    height: 28px;
+    background: url("../images/close.png") no-repeat;
+}
+
+.sign_on .sign_in .sign_foot {
+    /*height:285px;*/
+    padding: 17px 34px;
+}
+
+.sign_on .sign_in .sign_foot .sign_footA {
+    position: relative;
+    height: 60px;
+
+
+}
+
+.sign_on .sign_in .sign_foot .sign_footA .sign_footB {
+    height: 40px;;
+}
+
+
+
+.sign_on .sign_in .sign_footA  .sign_footC {
+    display: none;
+    position: absolute;
+    top: 45px;
+    width: 300px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    color: red;;
+}
+
+.sign_on .sign_in .sign_foot .sign_down {
+    height: 40px;
+    line-height: 40px;
+    background: #f4b942;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.sign_in_down {
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+}
+
+.sign_in_down div {
+    float: left;
+}
+.sign_in_down div:nth-child(2){
+    float: right;
+}
+.sign_in .sign_foot .sign_footA .sign_footD{
+    overflow: hidden;
+    border:1px solid #CCCCCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;;;
+
+
+}
+
+.sign_on .sign_in .sign_foot .sign_footA .sign_footD input {
+    margin: 0 auto;
+    height: 40px;
+    width: 300px;
+    border:none;
+}
+input:focus{
+    outline: none;
+}
+.sign_in .sign_foot .sign_footA .sign_footD input{
+    float: right;
+
+}
+.sign_in .sign_foot .sign_footE {
+    overflow: hidden;
+
+}
+.sign_in .sign_foot  .sign_footE .sign_footA, .sign_in .sign_foot  .sign_footE .sign_footF {
+    float: left;
+}
+.sign_in .sign_foot .sign_footE .sign_footA .sign_footB{
+    padding-left: 2px;
+    width: 240px;;
+    height: 40px;;
+    border:1px solid #CCCCCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;;;
+}
+.sign_in .sign_foot .sign_footE .sign_footA .sign_footB input{
+    margin: 0 auto;
+    height: 40px;
+    width: 235px;
+    border:none;
+}
+.sign_in .sign_foot .sign_footE .sign_footF{
+    margin-left: 10px;
+    width: 90px;
+    height: 40px;;;
+    border:1px solid #CCCCCC;
+}
+.sign_in .sign_foot .sign_footE .sign_footA .sign_fooC{
+
+    font-size: 10px;
+    color: red;;
+}
+.sign_phone{
+    background:url("../images/sign_n.jpg")  no-repeat;
+}
+.sign_pass{
+    background:url("../images/sign_o.png")  no-repeat;}
+/*实名认证*/
+.trueName {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.name_in {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -121px 0 0 -209px;
+    width: 418px;
+    height: 242px;
+    border-radius: 5px;
+    background: #ffffff;;
+}
+
+.sign_top {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff9696;
+    color: #ffffff;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sign_close {
+    position: absolute;
+    top: 8px;
+    left: 374px;;;
+    width: 28px;
+    height: 28px;
+    background: url("../images/close.png") no-repeat;
+    z-index: 1000;
+}
+
+.trueNameA {
+    margin-bottom: 25px;
+    overflow: hidden;
+    width: 350px;;
+    height: 40px;
+    line-height: 40px;
+}
+
+.trueNameA div {
+    float: left;
+}
+
+.trueNameA div:nth-child(2) {
+    padding: 0 2px;
+    width: 256px;
+    height: 37px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.trueNameA div:nth-child(2) input {
+    width: 256px;
+    height: 33px;
+    border: none;;
+}
+
+input:focus {
+    outline: none;
+}
+
+.sign_down {
+    height: 40px;
+    line-height: 40px;
+    background: #f4b942;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.trueNameFoot {
+    width: 345px;;
+    padding: 20px 35px;
+}
+/*密码*/
+.password {
+    position: relative;
+    margin: 30px auto;
+
+    width: 1100px;
+    height: 530px;;;
+}
+
+.password .passwordTop {
+    height: 95px;
+    font-size: 25px;
+    line-height: 95px;
+    color: #6ed3d6;
+}
+
+.password .passwordTop span {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 5px;
+    height: 24px;
+    background: #f4b942;
+}
+.password .passwordFoot{
+
+    margin-top: 70px;
+    color: white;
+}
+.password .passwordFoot span {
+    color: #F77F96;
+}
+.password .passwordFoot .passwordFootA{
+    margin:0 auto;
+    width: 416px;
+    height: 40px;margin-bottom: 20px;;
+}
+.password .passwordFoot .passwordFootA:after{
+    content: '';
+}
+.password .passwordFoot .passwordFootA div{
+    float: left;
+}
+.password .passwordFoot .passwordFootA div input{
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.password .passwordFoot .passwordFootA .passwordFootB{
+    float: left;
+    width: 120px;
+    height: 42px;
+    margin-right: 20px;
+    line-height: 42px;
+    text-align: right;
+}
+.password .passwordFoot .passwordFootA .passwordFootC{
+    float: left;
+
+    height: 44px;;
+}
+.password .passwordFoot .passwordFootA .passwordFootD{
+    padding-left: 10px;
+    width: 252px;
+    height: 40px;
+    border:1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.password .passwordFoot .passwordFootA .passwordFootD input{
+    height: 40px;
+    width: 240px;    background: rgba(0, 0, 0, 0);color: white;;
+}
+.password .passwordFoot .passwordFootA .passwordFootE{
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 152px;
+    height: 40px;
+    border:1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.password .passwordFoot .passwordFootA .passwordFootE input{
+    height: 40px;
+    width: 140px;    background: rgba(0, 0, 0, 0);;
+}
+.password .passwordFoot .passwordFootA .passwordFootF{
+    position: relative;
+    width: 92px;
+    height: 42px;
+    overflow: hidden;;
+}
+.password .passwordFoot .passwordFootA .passwordFootF div{
+    width: 90px;
+    height: 40px;;;
+}
+.password .passwordFoot .passwordFootA .passwordFootF div:nth-child(2){
+    display: none;
+    position:absolute;
+    top:0;
+    left: 0;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+}
+.password .passwordFoot .passwordFootA .passwordFootF:hover div:nth-child(2){
+    display: block;
+}
+.password .passwordFootDown{
+    margin:0 auto;
+    margin-top: 80px;
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    background: #f4b942;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;;
+}
+.password #worUesr,
+.password #trueI{
+    display: none;
+    position: absolute;
+    width: 260px;;
+    height: 18px;
+    font-size: 14px;
+    color: red;
+    line-height: 18px;
+}
+.password #worUesr{
+
+    top: 207px;
+    left: 490px;
+}
+.password #trueI{
+
+    top: 265px;
+    left: 490px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,226 @@
+.posMoney {
+    width: 1100px;
+    margin: 0 auto;;
+}
+
+.posMoneyTopT {
+    height: 49px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.posMoney .posMoneyTop .posMoneyTopT div:nth-child(1) {
+    font-size: 23px;
+    float: left;
+}
+
+.posMoney .posMoneyTopF {
+    padding: 0 40px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL {
+    float: left;
+    /*overflow: hidden;*/
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA {
+    overflow: hidden;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1,
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2,
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3,
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 {
+    float: left;
+    height: 170px;;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 {
+    width: 180px;;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 {
+    width: 130px;;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 {
+    width: 255px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 {
+    width: 105px;;;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(1),
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(1) {
+    height: 85px;
+    line-height: 85px;
+    font-size: 14px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2),
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) {
+    height: 55px;
+    font-size: 30px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div {
+    font-size: 16px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div:nth-child(1) {
+    height: 85px;
+    line-height: 85px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div:nth-child(2) {
+    height: 35px;
+    line-height: 35px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 .posMoneyTopA4m {
+    position: relative;
+    top: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 101px;
+    height: 101px;;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 . div {
+
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 .posMoneyTopA4m div:nth-child(1) {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    background: #CDF0F5;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 .posMoneyTopA4m div:nth-child(2) {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 88px;
+    height: 88px;;;
+    background: #6ed3d6;
+    border-radius: 50%;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 .posMoneyTopA4m div:nth-child(3) {
+    position: absolute;
+    line-height: 101px;
+    font-size: 20px;
+    color: #ffe98d;
+    text-align: center;
+    width: 101px;
+    height: 101px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopA {
+    overflow: hidden;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopB {
+    width: 675px;
+    border-top: 1px dashed #CCCCCC;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLB, .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
+    float: left;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
+    float: right;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopR {
+    float: left;
+    margin-left: 50px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopR .posMoneyTopRA {
+
+    padding: 15px 69px;
+    width: 155px;
+    height: 185px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopR .posMoneyTopRA div:nth-child(2) {
+    line-height: 35px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2) span {
+    color: #f5c25a;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2) span:nth-child(1),
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2) span:nth-child(2) {
+    color: #f77f96;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) span {
+    color: #6ed3d6;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) span:nth-child(2) {
+    font-size: 16px;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div span {
+    color: #f77f96;
+}
+
+.posMoney .posMoneyTop .posMoneyTopT {
+    padding: 0px 40px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.posMoney .posMoneyTop .posMoneyTopT div:nth-child(2) {
+    float: right;
+    color: #f77f96;
+}
+
+.posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopB p span {
+    color: #999999;
+}
+#moneyList{
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 0;
+}
+#moneyList .moneyPage{
+    width: 510px;
+    margin:0 auto;;
+}
+#moneyList .moneyPage div{
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#moneyList .moneyPage .moneyPageL,.moneyList .moneyPage .moneyPageR{
+    position: relative;
+    top: -10px;;
+    width: 75px;
+}
+#moneyList .moneyPage ul{
+
+    display: inline-block;
+    overflow: hidden;
+    border:1px solid #d5d5d5;
+    border-right: none;
+    height: 30px;;
+    background: white;
+}
+
+#moneyList .moneyPage ul li{
+    float: left;
+    width: 31px;
+    border-right:1px solid #d5d5d5;;
+}

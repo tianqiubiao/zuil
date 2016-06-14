@@ -1,0 +1,159 @@
+.my_accountRight{
+    width: 928px;
+}
+.my_account01{
+    width: 926px;
+    height: 582px;;
+}
+.my_account01 .my_account1Top{
+    padding:13px 50px;
+    height: 242px;
+    width: 824px;;
+    border:1px solid #CCCCCC;;
+}
+
+.my_account1TopA,
+.my_account1TopE,
+.my_account1TopF,
+.my_account1TopZ,
+.my_account1TopB{
+    clear: both;
+}
+
+.my_account1TopA .my_account1TopC,
+.my_account1TopE div,
+.my_account1TopF div,
+.my_account1TopRA,
+.my_account1TopBLeft,
+.my_account1TopRL,
+.my_account1TopR{
+    float: left;
+}
+
+.my_account1TopA{
+    height: 60px;
+    border-bottom: 1px dashed #CCCCCC;;
+}
+.my_account1TopA .my_account1TopD,
+.my_account1TopRB{
+    float: right;
+}
+
+.my_account1TopA .my_account1TopC{
+    /*border-bottom: 1px dashed #CCCCCC;*/
+}
+/*签到*/
+.my_account1TopD{
+    width: 88px;
+padding-top: 18px;
+    height: 30px;;
+}
+
+.my_account1TopD div{
+   width: 100%;
+    height:100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #f4b942;
+    border-radius: 5px;
+}
+
+.my_account1topE a{
+    color: #8cd9ff;
+    text-decoration: solid;
+}
+.my_account1TopBLeft{
+    width: 325px;
+    height: 165px;
+text-align: left;
+border-right: 1px dashed #CCCCCC;
+}
+.my_account1TopH{
+    height:55px;
+    line-height: 55px;
+    font-size: 25px;
+}
+.my_account1TopI{
+    height: 28px;
+line-height: 28px;   
+}
+.my_account1TopJ{
+    color: #6ed3d6;
+    height: 29px;
+line-height: 18px;
+}
+/*充值提现*/
+.my_account1TopF div {
+    margin-right: 27px;
+    width: 130px;
+    height: 32px;
+line-height: 32px;
+text-align: center;
+}
+.my_account1TopF div:nth-child(1){
+    background:#f77f96 ;
+}
+.my_account1TopF div:nth-child(2){
+    background:#6ed3d6 ;
+}
+.my_account1TopX{
+    height:23px;
+    line-height: 23px;
+}
+.my_account1TopY{
+    height: 55px;
+    line-height: 55px;
+color:#f77f96;
+font-size: 25px;
+}
+.my_account1TopR{
+    height: 40px;
+line-height: 40px;
+}
+.my_account1TopRB span{
+    color: #6ed3d6;
+    font-size: 20px;
+}
+.my_account1TopRA span{
+    color:#f77f96;
+    font-size: 20px;
+}
+.my_account1TopZ{
+    margin:29px 0 14px 0;
+    padding-left: 35px;
+text-align: left;
+    height: 81px;
+    border-left:1px solid #eeeeee;;
+}
+.my_account1TopZ .my_account1TopZ1{
+    height:23px;
+    line-height :23px;
+    clear: left;
+    
+}
+.my_account1TopZ .my_account1TopZ1 a{
+    color:#fbbfcb;
+    float: right;
+}
+
+.my_account1TopZ .my_account1TopZ2{
+    height: 45px;
+;line-height: 45px;
+    color: #f4b942;
+}
+
+.my_account1TRight{
+    width: 500px;
+float: left;
+}
+
+
+
+
+
+
+
+
+
+

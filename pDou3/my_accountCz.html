@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/stylesheets/01.css">
+    <style>
+        body {
+            background: #f9f9f9;
+        }
+
+        .bankCard {
+            margin-bottom: 20px;
+            overflow: hidden;
+            height: 355px;
+        }
+
+        .payMoney {
+            /*width: 1100px;*/
+            margin: 0 auto;
+            background: #ffffff
+        }
+
+        .payMoneyT, .payMoneyF {
+            /*padding: 0 105px;*/
+            width: 885px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .payMoneyT {
+            margin: 30px 0 20PX 0;
+            height: 100px;
+            text-align: center;
+            line-height: 55px;
+            font-size: 20px;
+        }
+
+        .payMoneyT p:nth-child(1) {
+
+            height: 40px;;
+        }
+
+        .payMoneyT p:nth-child(2) {
+            height: 60px;
+            color: #999999;;
+        }
+
+        .payMoneyFFoot {
+            padding: 60px 295px;;
+            margin-bottom: 60px;
+            height: 345px;;
+        }
+
+        .payMoneyF .payMoneyFTop {
+            height: 140px;
+            border-bottom: 1px dashed #CCCCCC;
+        }
+
+        .payMoneyF .payMoneyFTop .payMoneyFTopA {
+            height: 70px;
+            line-height: 70px;
+            overflow: hidden;
+        }
+
+        .payMoney .payMoneyFTop .payMoneyFTopA div {
+            position: relative;
+            top: 25px;
+            margin-right: 3px;
+            float: left;
+            width: 26px;
+            height: 22px;
+            background: url("public/images/yellowT.png");
+        }
+
+        .payMoney .payMoneyFTop .payMoneyFTopA p {
+            float: left;
+            text-align: left;
+            color: #666666;
+        }
+
+        .payMoney .payMoneyFTop .payMoneyFTopA span {
+            color: #000;
+            font-size: 16px;
+        }
+
+        .payMoney .payMoneyFTop .payMoneyFTopB {
+            height: 70px;
+            text-align: right;
+            line-height: 100px;
+        }
+
+        .payMoney .payMoneyFTop .payMoneyFTopB span {
+            color: #F77F96;
+            font-size: 30px;
+        }
+
+        .payMoneyF .payMoneyFFoot {
+            height: 85px;
+        }
+
+        .payMoney .payMoneyFFoot a {
+            color: #66CCFF
+        }
+
+        .payMoneyF .payMoneyFFoot .payMoneyFFootA {
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            font-size: 14px;
+        }
+
+        .payMoney .payMoneyFFoot .payMoneyFFootA div {
+            position: relative;
+            top: 8px;
+            margin-right: 6px;
+            float: left;
+            width: 26px;
+            height: 22px;
+
+
+        }
+
+        .payMoney .payMoneyFFootB div {
+            text-align: center;
+            width: 290px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;;
+            background: #F77F96;
+            border-radius: 5px;
+            color: white;;
+        }
+
+        .payMoney .payMoneyF .bankCard ul {
+            overflow: hidden;
+        }
+
+        .payMoney .payMoneyF .bankCard ul li {
+            position: relative;
+            margin-right: 27px;
+            float: left;
+            width: 201px;
+            height: 60px;
+            background: url("public/images/bankK.png") no-repeat;
+            background-position: 5px;;;
+        }
+
+        .payMoney .payMoneyF .bankCard ul li:last-child {
+            margin-right: 0;
+        }
+
+        .payMoney .payMoneyF .bankCard ul li .bankImg {
+            position: absolute;
+            top: 19px;
+            left: 43px;
+
+        }
+
+        .payMoney .payMoneyF .bankCard ul li .bankSco {
+            position: absolute;
+            top: 22px;
+            left: 20px
+        }
+
+        .payMoney .payMoneyF .bankCard ul li .chickIco {
+            position: absolute;
+            top: 18px;
+            left: 24px
+        }
+
+        .payMoney .payMoneyF .bankCard p {
+            padding-left: 3px;
+            height: 50px;
+            line-height: 45px;
+            color: #999999;
+        }
+
+        .payMoney .payMoneyF .bankCard ul li.bgImg {
+            background: url("public/images/bgBankImg.png") no-repeat;
+            background-position-y: 5px;
+        }
+
+        .bank_meg {
+            width: 875px;
+            height: 185px;
+        }
+
+        .bank_meg .bank_msg {
+            height: 35px;
+            line-height: 35px;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        .bank_meg .bank_list {
+            overflow: hidden;
+            border: 1px solid #f5c259;
+            border-radius: 5px;
+        }
+
+        .bank_list ul {
+            float: left;
+            height: 122px;
+            border-left: 1px solid #CCCCCC;
+        }
+
+        .bank_list ul li {
+            list-style: none;
+            width: 176px;
+            height: 39px;
+            line-height: 38px;
+            border-bottom: 1px solid #CCCCCC;
+            text-align: center;
+        }
+
+        .bank_list ul li:nth-child(1) {
+            background: rgb(238, 238, 238);
+        }
+
+        .bank_list ul li:last-child {
+            border-bottom: none;
+        }
+
+        .bank_list .bank_last li:nth-child(1) {
+            width: 342px;
+            border-top-right-radius: 5px;
+        }
+
+        .bank_list .bank_last li:nth-child(2) {
+            padding: 0 18px;
+            padding-top: 5px;
+            width: 306px;
+            height: 79px;
+            line-height: 22px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .bank_list .bank_first {
+            border-left: none;
+        }
+
+        .bank_first li:nth-child(1) {
+            border-top-left-radius: 5px;
+        }
+
+        .chickIco {
+            display: none;
+        }
+        .borderNo{
+            border: none;
+        }
+        </style>
+</head>
+<body>
+
+<div class="my_account">
+    <div class="my_Account row">
+        <div class="my_accountLeft" id="my_accountLeft">
+            <div class="bg"><a href="javascript:;">我的账户</a></div>
+            <div><a href="javascript:;">我的投资</a></div>
+            <div><a href="javascript:;">活动本金</a></div>
+            <div><a href="javascript:;">交易记录</a></div>
+            <div><a href="javascript:;">邀请好友</a></div>
+            <div><a href="javascript:;">我的消息</a></div>
+            <div><a href="javascript:;">安全中心</a></div>
+        </div>
+
+        <div class="my_accountRight" id="my_accountRight">
+            <div class="my_account06Top">
+                <div class="topmasger borderNo"><span></span>&nbsp; 我要充值</div>
+
+            </div>
+            <div class="payMoney">
+                <div class="payMoneyF">
+                    <div class="payMoneyFTop">
+                        <div class="payMoneyFTopA">
+                            <div></div>
+                            <p>当前可用余额： <span>4150.00</span></p>
+                        </div>
+
+                        <div class="row" style="height: 42px;">
+                            <div class="left" style="line-height: 42px">充值金额</div>
+                            <div class="left" style="padding-left: 5px;width: 262px;height: 40px;line-height: 39px;border: 1px solid #EEEEEE;border-radius: 5px;margin-left: 20px">
+                                <input type="text" placeholder="100元起充" style="height: 36px;width: 260px;border: none;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bankCard" id="bankMoneyCard" style="height: 194px;position: relative;padding: 0 0 20px 0;">
+                        <p>请选择银行卡</p>
+                        <ul>
+                            <li>
+                                <div class="bankImg"><img src="public/images/jianshebank.png" alt="建设银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/gongshangbank.png" alt="工商银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/zhonghangbank.png" alt="中国银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="bankImg"><img src="public/images/youzhengbank.png" alt="邮政银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/zhaoshangbank.png" alt="招商银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/minshengbank.png" alt="民生银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/guangdabank.png" alt="光大银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="bankImg"><img src="public/images/zhongxinbank.png" alt="中信银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/jioatongbank.png" alt="交通银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/pinganbank.png" alt="平安银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="bankImg"><img src="public/images/pufabank.png" alt="浦发银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/guanfabank.png" alt="广发银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/baijingbank.png" alt="北京银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/ningbobank.png" alt="宁波银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="bankImg"><img src="public/images/nanjingbank.png" alt="南京银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/bohaibank.png" alt="渤海银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png"></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/dongyabank.png" alt="东亚银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png" alt=""></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                            <li>
+                                <div class="bankImg"><img src="public/images/chengdubank.png" alt="成都银行"></div>
+                                <div class="bankSco"><img src="public/images/yuan.png" alt=""></div>
+                                <div class="chickIco"><img src="public/images/dian.png" alt=""></div>
+                            </li>
+                        </ul>
+                        <div style="    background: white;width: 100%;margin: 0 auto; cursor: pointer; position: absolute;bottom: 0"
+                             id="bankMoreCard">
+                            <div style="margin: 5px auto;color: #CCCCCC;text-align: center">更多银行</div>
+                            <div>
+                                <div style="margin: 0 auto;;width:0 ;height: 0;border: 8px solid ;border-color: #cccccc transparent transparent transparent;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bank_meg">
+                        <div class="bank_msg">该银行充值须知：</div>
+                        <div class="bank_list">
+                            <ul class="bank_first">
+                                <li>单笔限额（单位：元）</li>
+                                <li>5000</li>
+                                <li>100万</li>
+                            </ul>
+                            <ul>
+                                <li>单日限额（单位：元）</li>
+                                <li>5000</li>
+                                <li>100万</li>
+                            </ul>
+                            <ul>
+                                <li>需要满足的条件</li>
+                                <li>短信密码用户</li>
+                                <li>证书用户</li>
+                            </ul>
+                            <ul class="bank_last">
+                                <li>备注</li>
+                                <li>你如果需要进行网上支付，需要开勇网上银行（手机注册版或者证书认证版），使用签约的主卡或者下挂卡进行支付</li>
+
+                            </ul>
+                        </div>
+                        <div class="bank_msg">
+                            注:银行客服电话 95588
+                        </div>
+                    </div>
+
+                    <div class="payMoneyFFoot">
+                        <div class="payMoneyFFootA">
+                            <div><img src="public/images/greenT.png" alt="0"></div>
+                            <p>我已阅读并同意<a href="">《p兜开采借款协议》</a></p>
+                        </div>
+                        <div class="payMoneyFFootB">
+                            <div>确认付款</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--签到遮罩层-->
+        <div class="abs_account" id="my_account_qd" style="display: none">
+            <div class="true_qd">
+                <div>签到成功!</div>
+                <div>今日签到金额&nbsp;<span>0.00</span>&nbsp;元</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" src="public/javascripts/jquery.min.js"></script>
+<script type="text/javascript" >
+    $('#bankMoreCard').click(function () {
+                                 $('#bankMoneyCard').css({'height': '355px', 'padding': '0'});
+                                 $('#bankMoreCard').css('display', 'none');
+                             }
+    )
+
+
+</script>
+</body>
+</html>

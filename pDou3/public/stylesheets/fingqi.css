@@ -1,0 +1,416 @@
+.my_account{
+    position: relative;
+    width:100%;
+
+}
+.my_Account {
+    position: relative;
+    width: 1100px;
+    margin:0 auto;
+    padding:50px 0;
+
+}
+
+.my_Account .my_accountLeft {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 162px;
+    height: 356px;
+    border: 1px solid #eeeeee;
+}
+
+.my_Account .my_accountLeft a {
+    display: block;
+color: #000;
+    height: 43px;
+    line-height: 43px;
+    width: 162px;
+
+text-align: center;
+}
+.my_Account .my_accountLeft div{
+    margin-bottom: 9px;
+}
+.my_Account .my_accountLeft div.bg{
+    background: #f77f96;
+    color: #ffffff
+;
+}
+.my_Account .my_accountLeft div:last-child{
+    margin:0;
+}
+
+.my_Account .my_accountRight {
+    float: right;
+    width: 911px;
+}
+
+.my_account1Top {
+    padding: 15px 50px;;
+    width: 825px;
+    height: 240px;
+    border: 1px solid #eeeeee;
+    background: #FFFFFF;
+}
+
+.my_account1TopA {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.my_account1TopA .my_account1TopC {
+    float: left;
+}
+
+.my_account1TopC1 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.my_account1TopC2 {
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+}
+
+.my_account1TopC2 div {
+    float: left;
+}
+
+.my_account1TopC2 div img {
+    width: 15px;;
+    height: 15px;;
+}
+
+.my_account1TopC2 div a {
+    color: #66CCFF;
+    text-decoration: underline;
+}
+
+.my_account1TopA .my_account1TopD {
+    float: right;
+    width: 88px;
+    padding-top: 18px;
+    height: 30px;;
+}
+
+.yesqd {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #f4b942;
+    border-radius: 5px;
+}
+.noqd{
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #cccccc;
+    border-radius: 5px;
+}
+.my_account1TopB {
+    width: 825px;
+    height: 160px;
+    margin-top: 12px;;;;
+    overflow: hidden;
+}
+
+.my_account1TopBLeft {
+    float: left;
+    width: 332px;
+    height: 168px;
+    border-right: 1px solid #eeeeee;
+}
+
+.my_account1TopJ {
+    height: 20px;
+    line-height: 20px;
+    color: #6ED3D6;
+}
+
+.my_account1TopH {
+    height: 60px;
+    line-height: 80px;
+    font-size: 30px;
+    color: black;
+}
+
+.my_account1TopI {
+    height: 40px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.my_account1TopF {
+    overflow: hidden;
+    width: 355px;;
+    height: 35px;
+
+}
+
+.my_account1TopF div {
+    float: left;
+    margin-right: 30px;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;;
+    color: #fff;;
+}
+
+.my_account1TopF div:nth-child(1) {
+    background: #f77f96;
+}
+
+.my_account1TopF div:nth-child(2) {
+    background: #6ed3d6;
+}
+
+.my_account1TRight {
+    margin-left: 30px;
+    text-align: left;
+    float: left;
+}
+
+.my_account1TopRL {
+    overflow: hidden;
+    height: 100px;
+    border-bottom: 1px dashed #CCCCCC;
+    width: 460px;
+
+}
+
+.my_account1TopRL1 {
+    float: left;
+    height: 100%;
+    width: 267px;;
+}
+
+.my_account1TopRL1 .my_account1TopX {
+    height: 29px;
+    line-height: 29px;
+    color: #999999;
+}
+
+.my_account1TopY {
+    width: 100%;
+    height: 40px;
+    line-height: 45px;
+    color: #f77f96;
+    font-size: 25px;
+}
+
+.my_account1TopZ {
+    float: left;
+    padding-left: 30px;;
+    width: 162px;
+    height: 85px;
+    border-left: 1px solid #eee;;;
+}
+
+.my_account1Top .my_account1TopZ .my_account1Z1 {
+    color: #999;
+}
+
+.my_account1Top .my_account1TopZ .my_account1Z1 a {
+    color: #fbbfcb;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.my_account1Top .my_account1TopZ .my_account1Z2 {
+    height: 57px;;;
+    line-height: 45px;
+    color: #f4b942;
+    font-size: 25px;
+}
+
+.my_account1Top .my_account1TopR {
+    overflow: hidden;
+    width: 460px;;
+    height: 40px;
+
+}
+
+.my_account1Top .my_account1TopR .my_account1TopRA {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.my_account1Top .my_account1TopR .my_account1TopRB {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.my_account1Top .my_account1TopRB span {
+    color: #6ed3d6;
+    font-size: 20px;
+}
+
+.my_account1Top .my_account1TopRA span {
+    color: #f77f96;
+    font-size: 20px;
+}
+
+.my_account1Footer {
+    height: 295px;
+    width: 927px;;
+}
+
+.my_account1FooterNav {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    color: #999999;;;
+}
+
+.my_account1FooterNav a {
+    color: #666666;
+}
+
+.my_account1FooterCenter {
+    width: 100%;
+    height: 260px;
+}
+
+.my_account1FooterTop ul {
+    overflow: hidden;
+}
+
+.my_account1FooterTop ul li {
+    text-align: center;
+
+}
+
+.my_account1FooterFoot ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.my_account1FooterCenter ul {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.my_account1FooterCenter ul li {
+    float: left;
+    margin-left: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;;
+    padding: 0 10px 0 20px;
+    background: #FFFFFF;
+
+}
+
+.my_account1FooterCenter ul li:first-child {
+    margin-left: 0;
+}
+
+.my_account1FooterFoot ul li:nth-child(2) {
+    text-align: left;
+}
+
+.my_account1FooterFoot ul li:last-child {
+    text-align: left;
+}
+
+.my_account1FooterFoot ul li:nth-child(3) {
+    text-align: right;
+}
+
+.my_account1FooterFoot ul li:nth-child(4) {
+    text-align: right;
+}
+
+.my_account1FooterCenter ul li.numColorRed {
+    color: #ff1f1f;
+}
+
+.my_account1FooterCenter ul li.numColorGreen {
+    color: #65b23f;
+}
+/*签到遮罩层*/
+.my_account .abs_account{
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.5);
+
+}
+
+.my_account .abs_account .true_qd{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin:-184px 0 0 -154px;
+    width: 368px;
+    height: 308px;
+background: url("../images/img_qd.png");
+text-align: center;
+    color: #fff;
+}
+.my_account .abs_account .true_qd div:nth-child(1){
+    position: absolute;
+    top:197px;
+    left: 0;
+    width: 100%;
+}
+.my_account .abs_account .true_qd div span{
+    font-size: 22px;
+}
+.my_account .abs_account .true_qd div:nth-child(2){
+    position: absolute;
+    top:236px;
+    left: 0;
+    width: 100%;
+}
+/*投资*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

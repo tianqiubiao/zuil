@@ -1,0 +1,32 @@
+.banCard{
+    width: 100%;
+
+}
+.banCard .banOuter{
+    overflow: hidden;
+    width:100%;
+    margin:0 auto;;
+}
+.banCard .banOuter .banCard0 {
+    float: left;
+    display: none;
+    width:100%;
+
+}
+.navColor{
+    color: #FFE46C !important;
+}
+.navDis{
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+

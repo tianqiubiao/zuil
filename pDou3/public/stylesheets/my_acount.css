@@ -1,0 +1,72 @@
+.my_account {
+    margin: 0 auto;
+    width: 1100px;
+
+}
+
+.my_account .my_accountLeft {
+    width: 160px;
+    height: 100%;
+    padding: 0 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*背景暂定*/
+}
+
+.my_account .my_accountLeft div {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;;
+}
+.my_account .my_accountRight ul{
+    overflow: hidden;
+    height: 35px;
+line-height: 35px;
+    text-align: left;
+
+}
+.my_account .my_accountRight ul li{
+    float: left
+}
+.my_account .my_accountRight ul li:nth-child(1){
+    width: 180px;;
+}
+
+.my_account .my_accountRight ul li:nth-child(2){
+    width: 165px;;
+}
+.my_account .my_accountRight ul li:nth-child(3){
+    width: 135px;;
+}
+.my_account .my_accountRight ul li:nth-child(4){
+    width: 160px;;
+}
+/*投资列表 width:960px*/
+.my_account2Top{
+    height:70px;
+    line-height: 70px;;
+
+}
+.my_account02 ul{
+    overflow: hidden;
+}
+.my_account02 ul li{
+    float: left;
+
+}
+.my_account2Top ul li{
+    width: 480px;;
+}
+
+.my_account2Top ul li span{
+    font-size: 20px;
+}
+.my_account2Footer .my_account2BA{
+
+}
+.my_account2Footer .my_account2BA ul{
+    height: 50px;
+line-height: 50px;
+    text-align: center;
+}

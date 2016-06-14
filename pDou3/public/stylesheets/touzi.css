@@ -1,0 +1,194 @@
+.absMoney {
+    width: 1100px;
+    margin: 0 auto;;
+}
+
+.posMoneyTopT {padding:0 40px;
+    height: 49px;
+    line-height: 45px;
+    overflow: hidden;
+}
+.posMoneyTopT div:nth-child(1) {
+     font-size: 23px;
+     float: left;
+ }
+.posMoneyTopT div:nth-child(2) {
+    font-size: 14px;
+    line-height: 70px;
+    float: right;
+    color: #f77f96
+}
+.absMoneyTopF{
+    padding: 18px 0 15px 40px;
+    border-top: 1px solid #CCCCCC;
+    width: 1060px;
+    overflow: hidden;
+}
+.absMoneyTopF .absMoneyFootLeft,.absMoneyTopF .absMoneyFootRight{
+    float: left;
+    height: 220px;;
+}
+.absMoneyTopF .absMoneyFootLeft{
+    width:725px;
+    border-right: 1px solid #EEEEEE;
+}
+.absMoney .absTop{
+    overflow: hidden;
+}
+.absMoney .absTop .absTopA{
+    float: left;
+
+}
+.absMoney .absTop .absTopA .absTopB{
+    height: 70px;
+    color:#666666;    font-size: 10px;    line-height: 40px;
+}
+.absMoney .absTop .absTopA .absTopC{
+    height:76px;
+    font-size: 22px;
+}
+
+.absMoney .absTop .absTopD{
+    width: 185px; color: #f77f96;;
+}
+
+.absMoney .absTop .absTopE{
+    width: 165px;color: #f5c25a;;
+}
+
+.absMoney .absTop .absTopF{
+    width: 115px;
+color: #6ed3d6;
+}
+
+.absMoney .absTop .absTopG{
+    width: 260px;;
+}
+.absMoney .absTop .absTopD span,.absMoney .absTop .absTopE span,.absMoney .absTop .absTopF span{
+    font-size: 34px;
+}
+.absMoney .absTop .absTopG div{
+    height:40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666666;
+}.absMoneyFootRight{
+     margin-left: 55px;;
+ }
+ .absMoneyFootRight{
+     font-size: 14px;
+ }
+
+.absFoot{
+    height: 60px;
+;
+}
+.absFoot .absFootA{
+    overflow: hidden;
+    height: 30px;
+line-height: 30px;
+
+}
+.absFoot .absFootA div{
+    float: left;
+}
+.absFoot .absFootA div:nth-child(1){
+    width: 70px;;
+}
+.absMoneyFootRight .absFootB{
+    height: 39px;
+overflow: hidden;
+}
+.absMoneyFootRight .absFootC{
+    float: left;overflow: hidden;
+    width: 115px;
+    line-height: 40px;
+    background: #6ed3d6;
+    color: white;
+    text-align: center;
+}
+.absMoneyFootRight .absFootC div{
+    float: left;
+    height: 40px;;
+}
+.absMoneyFootRight .absFootC div:nth-child(1),.absMoneyFootRight .absFootC div:nth-child(3){
+    font-size: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.absMoneyFootRight .absFootC input{
+
+height:33px;
+    width:70px;
+}
+.absMoneyFootRight .absFootD{
+    height:53px;
+    line-height: 35px;
+
+}
+
+.absMoneyFootRight .absFootE{
+    text-align: center;
+    width: 220px;
+height:35px;
+    line-height: 35px;
+    color: white;
+border-radius: 5px;
+background:#f77f96 ;
+}
+.absMoneyFootRight .absFootA div span:nth-child(1),.absMoneyFootRight .absNoBay div span:nth-child(1){
+    font-size: 22px;
+}
+.absMoneyFootRight .absNoBay{
+    margin-top: 35px;
+}
+.absMoneyFootRight .absNoBay div{
+    height: 30px;
+line-height: 30px;
+}
+.absMoneyFootRight .absNoBay .absNoA{
+    margin-top: 25px;
+    width: 220px;
+    height: 35px;
+line-height: 35px;
+text-align: center;
+    background:#f5c25a ;
+    border-radius: 5px;
+    color:white;
+}
+.absMoneyFootLeft .absTopH{
+    padding-top: 26px;
+
+    overflow: hidden;
+    width: 675px;
+    height: 45px;
+    border-top: 1px dashed#EEEEEE;
+}
+.absMoneyFootLeft .absTopH div{
+    float: left;
+}
+.absMoneyFootLeft .absTopH .absTopHa{
+    float: right;
+}
+.absMoneyFootLeft .absTopH div p{
+    color: #000;
+}
+.absMoneyFootLeft .absTopH div p span{
+    color:#666666;
+}
+.absMoneyFootLeft .absTopH .absTopHa span{
+    display:inline-block;
+    border-radius: 3px;
+    width: 28px;
+    height: 20px;
+text-align: center;;
+    color:white;
+    background: #6ed3d6;
+}
+
+
+
+
+
+
+

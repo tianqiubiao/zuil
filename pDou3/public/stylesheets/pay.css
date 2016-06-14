@@ -1,0 +1,132 @@
+.posMoneyFoot{
+    position: relative;
+    margin:0 auto;
+    width: 1100px;
+    height: 675px;;
+}
+.posMoneyFoot .posMoneyFootTop{
+    position: absolute;
+    top:0;
+ width: 100%;
+    height: 35px;
+;
+}
+.posMoneyFoot .posMoneyFootTop div{
+    position: absolute;
+    left: 64px;
+    width: 146px;
+    height:100%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background: #ffbdce;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom:2px solid  #f77f96 ;
+}
+.posMoneyFoot .posMoneyFootTop div:nth-child(2){
+    left: 220px;;
+}
+.posMoneyFoot .posMoneyFootTop div.posMoneyFootTopBg{
+    background: #f77f96;
+}
+.posMoneyFoot .posMoneyFootA{
+    position:absolute;
+    top: 35px;;
+    width:1035px;
+    padding:0 0 0 65px;
+    height: 640px;
+border-top: 2px solid  #f77f96;
+}
+
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(1){
+    height: 45px;
+font-size: 20px;
+    line-height: 45px;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul{
+    overflow: hidden;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li{
+    overflow: hidden;
+    float: left;
+    width: 345px;
+    color: #999999;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li span{
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li span:nth-child(1){
+    width: 23px;
+    height: 23px;;
+background: url("../img/posYellowT.png") no-repeat;
+    background-position-y: 3px;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li span:nth-child(2){
+   
+    color: #66CCFF;
+   border-bottom: 1px solid #66CCFF;
+}
+
+.posMoneyFoot .posMoneyFootA .posMoneyJJ div div p{
+    width: 865px;
+line-height: 25px;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyTT{
+    position: absolute;
+    height:100%;
+    left: 0px;
+    text-align: center;
+}
+
+.posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi{
+    padding:0 64px;
+    background: #fff0f4;
+    height:50px;
+    line-height: 50px;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi div{
+    width: 972px;;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyTT  .posMoneyTouZiA{
+    padding:0 66px;
+    height:50px;
+    line-height: 50px;
+
+}
+
+.posMoneyFoot .posMoneyFootA .posMoneyTT  div ul{
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+}
+.posMoneyFoot .posMoneyFootA .posMoneyTT  div ul li{
+    float: left;
+    width: 322px;;
+}
+
+.posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi div ul li:nth-child(2){
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
