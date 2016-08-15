@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/css/app.css">
+
+</head>
+<body>
+
+
+<div class="my_account row">
+    <div class="my_Account row">
+        <div class="my_accountRight ">
+            <!--我的账户-->
+            <div class="my_account01" id="my_account01">
+
+                <div id="my_account01Foot" >
+                    <div class="my_account06Top border1px">
+                        <div class="topmasger row height66"><span></span>&nbsp; 签到
+                            <div class="right" style="padding-top: 18px;width: 88px;height: 30px;">
+                                <div class="yesqd"  style="font-size: 14px">签到</div>
+                                <div class="noqd"  style="font-size: 14px;display: none">签到</div>
+                            </div>
+                        </div>
+                        <div class="row qiandao ">
+                            <div class="left">累计签到 <span class="colorNum font_32 allDays" id="allDays">10</span> <span
+                                    class="colorNum">天</span></div>
+                            <div class="left">累计签到收益 <span class="color_pink font_32" id="allMoneys">10.00</span> <span
+                                    class="color_pink">元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Date ">
+                        <div class="relative Date_top">
+                            <div class="absolute Date_top1 " id="prevmonth"></div>
+                            <div class="absolute Date_top2" id="nextmonth"></div>
+                            <div class="monthDate">
+                                <span id="year">2016</span> <span id="month">07</span>
+                            </div>
+                        </div>
+                        <div class="weekList">
+                            <ul class="row">
+                                <li>周日</li>
+                                <li>周一</li>
+                                <li>周二</li>
+                                <li>周三</li>
+                                <li>周四</li>
+                                <li>周五</li>
+                                <li>周六</li>
+                            </ul>
+                        </div>
+                        <div class="dayList" id="DayList"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/app.js"></script>
+<script src="public/js/date.js"></script>
+<script>
+    jQuery(function($) {
+        $(document).ready( function() {
+            $('.second').stickUp();
+        });
+    });
+    calendar(dateList)
+</script>
+</body>
+</html>

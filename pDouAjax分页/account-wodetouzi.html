@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/css/app.css">
+
+</head>
+<body>
+
+<div class="top" style="">
+    <div class="topNav row">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt="" class="w"></li>
+        </ul>
+        <ul class="right topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="uesr_name">
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+            </li>
+            <li class="afterDis color_pink" data-href="w-wodexiaoxi.html">消息</li>
+            <li>退出</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
+        </ul>
+    </div>
+</div>
+<!--导航-->
+<div class="second">
+    <div class="secondTop row">
+        <div class="left" data-href="new-index.html"><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div id="banCard0" class="right">
+            <div class=" pointer" data-href="new-index.html">&nbsp;&nbsp;首页</div>
+            <div class=" pointer" data-href="sellMoney.html">定期理财</div>
+            <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
+            <div class=" pointer" data-href="safe.html">安全保障</div>
+            <div class=" pointer" data-href="about-team.html">关于我们</div>
+        </div>
+    </div>
+</div>
+
+<div class="my_account">
+    <div class="my_Account row">
+        <div class="my_accountLeft">
+            <div data-href="w-wodezhnghu.html">我的账户</div>
+            <div class="bg">我的投资</div>
+            <div data-href="w-wodebenjn.html">活动本金</div>
+            <div data-href="account_juan.html">我的兜劵</div>
+            <div data-href="w-accountjiaoyijilu.html">交易记录</div>
+            <div data-href="w-myfriend.html">邀请好友</div>
+            <div data-href="w-wodexiaoxi.html">我的消息</div>
+            <div data-href="account_safe.html">安全中心</div>
+        </div>
+
+        <div class="my_accountRight">
+            <!--账户-->
+
+            <!--我的投资-->
+            <div class="my_account01 navDis" id="my_account02" style="display: none;">
+                <div class="my_account06Top border1px">
+                    <div class="topmasger"><span></span>&nbsp; 我的投资</div>
+                    <div class="row chickbox color3">
+                        <div class="left font_14">累计投资 <span class="color_pink font_25">10.00</span></div>
+                        <div class="right font_14">累计收益 <span class="colorNum font_25">10.00</span></div>
+                    </div>
+                </div>
+                <div class="row height50">
+                    <div class="left text-left" style="width: 80px;">选择类型</div>
+                    <div class="left  inline_list money_item_list">
+                        <ul id="moneyTag">
+                            <li class="bgOrange">进行中</li>
+                            <li date-pagination='huikuan' id="hui">回款中</li>
+                            <li date-pagination="jieshu" id="jie">已结束</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="tagList">
+                    <div class="moneyTags">
+                        <div class="height56 font_weight">
+                            投标中
+                        </div>
+                        <div class="ulLeft_list ulLeft_listTop  color6">
+                            <ul>
+                                <li>标的信息</li>
+                                <li>投资本金</li>
+                                <li>投资期限</li>
+                                <li>预期收益</li>
+                            </ul>
+                        </div>
+                        <div class="ulLeft_list ulLeft_listHeight58  color3" style="height:302px;overflow: hidden">
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                            </ul>
+
+                        </div>
+                        <p style="line-height: 25px;font-size: 14px;color: #666666;text-align: right;" class="showDown">
+                            展开查看全部 <img src="public/images/more_sin_diso.png" alt="" style="vertical-align: middle"></p>
+                        <div class="height56 font_weight">转让中</div>
+                        <div class="ulLeft_list ulLeft_listTop width185px  color6">
+                            <ul>
+                                <li>标的信息</li>
+                                <li>投资本金</li>
+                                <li>可转让份数</li>
+                                <li>已转让份数</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="ulLeft_list width187ul width185px ulLeft_listHeight58"
+                             style="height:302px;overflow: hidden">
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="color9">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li><span class="yellowNum">取消转让</span></li>
+                            </ul>
+                        </div>
+                        <p style="line-height: 25px;font-size: 14px;color: #666666;text-align: right" class="showDown">
+                            展开查看全部 <img src="public/images/more_sin_diso.png" style="vertical-align: middle"></p>
+
+                    </div>
+                    <div class="moneyTags" style="display: none">
+                        <div class="height56 font_weight">
+                            回款中
+                        </div>
+                        <div class="ulLeft_list width187ul ulLeft_listWidth115  ulLeft_listTop  color6">
+                            <ul>
+                                <li>标的信息</li>
+                                <li>投资本金</li>
+                                <li>待回款</li>
+                                <li>已回款</li>
+                                <li>下次汇款时间</li>
+                                <li>到期时间</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="ulLeft_list width187ul ulLeft_listHeight83 ulLeft_listWidth115  " id="huikuan">
+                            <ul>
+                                <li>
+                                    <div class="deco">定宝1020</div>
+                                    <div>3个月·12%·先息后本</div>
+                                </li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>
+                                    <div class="colorNum" data-href="w-huikuangixnagqing.html">回款详情</div>
+                                    <div class="redNum" data-href="w-acountzr.html">转让</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fyList row " date-pagination="huikuan" regularType="1">
+                            <div class="fylistBtn">上一页</div>
+                            <div>
+                                <ul>
+                                    <li class="fyListBg">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                    <li>9</li>
+                                </ul>
+                            </div>
+                            <div class="fylistBtn">下一页</div>
+                        </div>
+                    </div>
+                    <!--结束-->
+                    <div class="moneyTags" style="display: none">
+                        <div class="over3">
+                            <div class="height56 font_weight">已结束</div>
+                            <div class="ulLeft_list ulLeft_listTop width185px font_14 color6">
+                                <ul>
+                                    <li>标的信息</li>
+                                    <li>投资金额（元）</li>
+                                    <li>已回款（元）</li>
+                                    <li>累计收益（元）</li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="ulLeft_list width187ul width185px ulLeft_listHeight58 " id="jieshu">
+                                <ul>
+                                    <li>
+                                        <div class="deco">定宝1020</div>
+                                        <div>3个月·12%·先息后本</div>
+                                    </li>
+                                    <li>1</li>
+                                    <li>1</li>
+                                    <li>1</li>
+                                    <li><span class="colorNum">回款详情</span></li>
+                                </ul>
+                            </div>
+                            <div class="fyList row " date-pagination="jieshu">
+                                <div class="fylistBtn">上一页</div>
+                                <div>
+                                    <ul>
+                                        <li class="fyListBg">1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li>5</li>
+                                        <li>6</li>
+                                        <li>7</li>
+                                        <li>8</li>
+                                        <li>9</li>
+                                    </ul>
+                                </div>
+                                <div class="fylistBtn">下一页</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width:100%;" class="oFoot">
+    <div class="foot">
+        <div class="footT row">
+            <div class="footTF left">
+                <div class="footTFT">友情链接</div>
+                <div class="footTFF"><img src="public/images/pNav.png" alt=""
+                                          class="marauto block"></div>
+            </div>
+            <div class="footTR left">
+                <div class="footTRD1">
+                    <ul>
+                        <li>中根资产</li>
+                        <li>融壹号</li>
+                        <li>中信信诚资产管理</li>
+                        <li>连连支付</li>
+                        <li>易宝支付</li>
+                        <li>大成律师事务所</li>
+                        <li>北京市当代律师事务所</li>
+                        <li>中铁物流集团</li>
+                        <li>贷出去多赚</li>
+                        <li>我贷网</li>
+                        <li>网贷联盟网</li>
+                        <li>融途网</li>
+                        <li>网贷天眼</li>
+                    </ul>
+                </div>
+                <div class="footTRD2 row">
+                    <div class="footTRD2 row">
+                        <div class="footTRD2T left">
+                            <div>Copyright©2015-2018 新金服 (北京) 信息服务有限公司</div>
+                            <div>京ICP备15011054号-2</div>
+                            <div>地址: 北京四东城区建国门内大街18号恒基中心三层008A</div>
+                        </div>
+                        <div class="footTRD2F right">
+                            <div class="footTRD2Fn">微信客服 P兜-小亮(xjfbank)</div>
+                            <div class="footTRD2Fu">
+                                <div class="footTRD2Fut">客服热线</div>
+
+                                <div class="footTRD2Fuf">
+                                    <div>工作日09:00-22:00</div>
+                                    <div>节假日10:00-19:00</div>
+                                </div>
+                            </div>
+                            <div class="footTRD2Fm"><a href="tel:400-859-9090">400-859-9090</a></div>
+                            <div class="footTRD2Fy">客服邮箱kf@xjfbank.com</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/app.js"></script>
+<script src="public/js/stickUp.js"></script>
+<script>
+    jQuery(function ($) {
+               $(document).ready(function () {
+                                     $('.second').stickUp();
+                                 }
+               );
+           }
+    );
+    var ulList = document.getElementById('moneyTag'), ulLists = ulList.getElementsByTagName('li');
+    var divList = document.getElementById('tagList'), divLists = divList.getElementsByClassName('moneyTags');
+    ~function bindCard(far, son) {
+        for (var i = 0, len = far.length; i < len; i++) {
+            ~function (i) {
+                far[i].onclick = function (e) {
+                    e.stopPropagation()
+                    e.returnValue = false;
+                    for (var j = 0, len = son.length; j < len; j++) {
+                        if (j === i) {
+                            far[i].className = "bgOrange";
+                            son[i].style.display = 'block';
+                            continue;
+                        } else {
+                            far[j].className = "  pointer ";
+                            son[j].style.display = 'none';
+
+                        }
+                    }
+                }
+            }(i)
+        }
+    }(ulLists, divLists);
+    /*没有数据执行*/
+//    var str = '<div style="margin-top: 18px; padding-top: 40px;height: 180px;width: 100%;background: #fff;">' +
+//            '<div style="width: 439px;height: 100%;margin: 0 auto">' +
+//            '<img src="public/images/img_juan_none.png" alt="" style="height: 178px;vertical-align: middle;">没有数据，<a href="sellMoney.html" class="link deco">去投资</a>' +
+//            '</div></div>';
+    //$('.over3').html(str);
+    //    数据不足5条隐藏
+    $('.showDown').each(function () {
+                            if ($(this).prev().children().length <= 5) {
+                                $(this).css('display', 'none');
+                                $(this).prev().css('height', '')
+                            }
+                        }
+    )
+    /*展开列表*/
+    $('.showDown').click(function () {
+                             $(this).css('display', 'none');
+                             $(this).prev().css('height', '')
+                         }
+    )
+
+
+
+</script>
+</body>
+</html>

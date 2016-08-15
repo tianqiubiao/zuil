@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/css/app.css">
+</head>
+<body>
+<div class="fyList row " date-pagination="2" id="2a">
+    <div class="fylistBtn pre">上一页</div>
+    <div>
+        <ul id="2u">
+
+        </ul>
+    </div>
+    <div class="fylistBtn next">下一页</div>
+</div>
+</body>
+</html>
+<script>
+    var totlePagerep = 15, page = 1, farD = '2a', ul = '2u';
+
+Page(totlePagerep,page);
+
+function Page(t,p ){
+    var page =p
+    $ajax("/getInfo?count=" + count + "&page=" + page, function (con) {
+        bindList(con.list);
+
+        totalPage = con.totalPage;
+        bindPage(totalPage);
+
+        changePage();
+    });
+
+    //->绑定列表的数据
+    function bindList(data) {
+        var dataList = document.getElementById("dataList");
+        dataList.innerHTML = data;
+
+    }
+
+    //->绑定分页页码数据
+    function bindPage() {
+        var str = "";
+        for (var i = 1; i <= t; i++) {
+            str += "<li>" + i + "</li>";
+        }
+        document.getElementById("pageList").innerHTML = str;
+    }
+
+    //->让当前页的页码选中
+    function changePage() {
+        var oLis = document.getElementById("pageList").getElementsByTagName("li");
+        for (var i = 0; i < oLis.length; i++) {
+            oLis[i].className = (i + 1) == page ? "bg" : null;
+        }
+    }
+
+
+    //->用事件委托实现我们的分页逻辑
+    document.getElementById("page").onclick = function (e) {
+        e = e || window.event;
+        var tar = e.target || e.srcElement;
+
+        //->说明点击的是每一个LI页码
+        if (tar.tagName.toLowerCase() === "li") {
+            page = Number(tar.innerHTML);
+            getInfoModel();
+            return;
+        }
+
+        //->fir:首页 pre:上一页 next:下一页 last:尾页
+        if (tar.className === "fylistBtn fir") {
+            page = 1;
+            getInfoModel();
+            return;
+        }
+
+        if (tar.className === "fylistBtn last") {
+            page = totalPage;
+            getInfoModel();
+            return;
+        }
+
+        if (tar.className === "fylistBtn pre") {
+            if (page == 1) {
+                return;
+            }
+            page--;
+            getInfoModel();
+            return;
+        }
+
+        if (tar.className === "fylistBtn next") {
+            if (page == totalPage) {
+                return;
+            }
+            page++;
+            getInfoModel();
+            return;
+        }
+    };
+
+
+
+    function getInfoModel() {
+        $ajax("/myRegularInvsetRepayment?currPage=" + page + "&regularType=" + type, function (con) {
+            bindList(con);
+            changePage();
+        });
+    }
+    }
+//    //    document.onload = function () {
+//    bindPage(ul, totlePagerep);
+//    changeList(ul, totlePagerep);
+//    //    }
+//
+//    function changeList(ula, tPage) {
+//        document.getElementById(farD).onclick = function (e) {
+//            e = e || window.event;
+//            var tar = e.target || e.srcElement;
+//
+//            if (tar.tagName.toLowerCase() === "li") {
+//                page = Number(tar.innerHTML);
+////                getInfoModel(ula,tPage);
+//                changePage(ula, tPage);
+//                console.log(page);
+//                return;
+//            }
+//
+//            //->fir:首页 pre:上一页 next:下一页 last:尾页
+//            if (tar.className === "fir") {
+//                page = 1;
+////                getInfoModel(ula,tPage);
+//                return;
+//            }
+//
+//            if (tar.className === "last") {
+//                page = totalPage;
+////                getInfoModel(ula,tPage);
+//                return;
+//            }
+//
+//            if (tar.className === "fylistBtn pre") {
+//                if (page == 1) {
+//                    return;
+//                }
+//                page--;
+//                changePage(ula, tPage)
+//                console.log(page);
+////                getInfoModel(ula,tPage);
+//                return;
+//            }
+//
+//            if (tar.className === "fylistBtn next") {
+//                var oLis = document.getElementById(ula).getElementsByTagName("li");
+//                if (page == tPage) {
+//                    return;
+//                }
+//                page++;
+//                changePage(ula, tPage);
+//                for (var i = 0, len = 9; i < len; i++) {
+//                    if (oLis.length >= 9 && page >= 5 && page <= tPage - 4) {
+//                        oLis[3].className = "";
+//
+//                        return;
+//                    } else {
+////                        oLis[i].className = (i + 1) == page ? "fyListBg" : null;
+//                    }
+//                }
+//                console.log(page);
+////                getInfoModel(ula,tPage);
+//                return;
+//            }
+//        };
+//
+//        function getInfoModel(ula, tPage) {
+////            $ajax("/myRegularInvsetRepayment?currPage=" + page + "&regularType=" + type, function (con) {
+////                      bindList(con);
+////                      var dataList = document.getElementById(inner);
+////                      dataList.innerHTML = str;
+//            changePage(ula, tPage);
+////                  }
+////            );
+//        }
+//
+////        使列表居中 宽：33*li+154
+//
+//    }
+//    function changePage(ula, tPage) {
+////        typeof (tPage) === 'undefined' ? totlePagerep : tPage;
+//        var oLis = document.getElementById(ula).getElementsByTagName("li");
+//        for (var i = 0, len = oLis.length; i < len; i++) {
+//            if (len >= 9 && page >= 5 && page <= tPage - 4) {
+//                console.log(len);
+//                if(page>=5)
+//                oLis[4].className = "fyListBg";
+//                for (var j = 0; j < 4; j++) {
+//                    oLis[i].className = " ";
+//                }
+//                return;
+//            } else {
+//                oLis[i].className = (i + 1) == page ? "fyListBg" : null;
+//            }
+//        }
+//    }
+//    function bindPage(ula, tPage) {
+//        var str = "";
+////        var num = tPage >= 9 ? 9 : tPage;
+//        num=tPage
+//        for (var i = 1; i <= num; i++) {
+//            if (i === 1) {
+//                str += '<li class="fyListBg">1</li>';
+//            } else {
+//                str += "<li>" + i + "</li>";
+//            }
+//        }
+//        document.getElementById(ula).innerHTML = str;
+//    }
+//
+</script>

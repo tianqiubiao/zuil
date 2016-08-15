@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<table>
+    <tbody>
+
+    </tbody>
+</table>
+<button onclick="changeColor()" style="width: 200px;height: 90px;display: block;margin: 0 auto"></button>
+<script src="../pDouAjax分页/public/js/jquery-1.8.3.min.js"></script>
+<script src="../甜点/tian.js"></script>
+<script>
+    var num=0;
+    changeColor();
+    function changeColor() {
+        $('tbody').html(function () {
+                            var str = '';
+                            for (var i = 0; i <= 10; i++) {
+                                str += '<tr>';
+                                for (var j = 0; j <= 10; j++) {
+                                    str += '<td style="background:' + getRandomColor() + ';width:60px;height:40px;color:' + getRandomColor() + '; text-align: center">'+num+'</td>';
+                                    num++;
+                                }
+                                ;
+                                str += '</tr>'
+                            }
+                            return str;
+                        }
+        )
+    }
+    window.setInterval(changeColor,200)
+</script>
+</body>
+</html>
