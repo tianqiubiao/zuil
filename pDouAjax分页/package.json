@@ -1,128 +1,22 @@
 {
   "code": -1,
+  "isSigned": false,
   "msg": "查询成功",
+  "nowDate": "2016-08-16",
   "signList": [
     {
-      "signAmount": 4.8,
-      "signDate": "2016-06-01"
+      "signAmount": 0.8,
+      "signDate": "2015-11-10"
     },
     {
-      "signAmount": 4.45,
-      "signDate": "2016-06-02"
-    },
-    {
-      "signAmount": 5.56,
-      "signDate": "2016-06-03"
-    },
-    {
-      "signAmount": 5.3,
-      "signDate": "2016-06-04"
-    },
-    {
-      "signAmount": 6.83,
-      "signDate": "2016-06-05"
-    },
-    {
-      "signAmount": 7.46,
-      "signDate": "2016-06-06"
-    },
-    {
-      "signAmount": 4.17,
-      "signDate": "2016-06-07"
-    },
-    {
-      "signAmount": 4.59,
-      "signDate": "2016-06-08"
-    },
-    {
-      "signAmount": 4.49,
-      "signDate": "2016-06-10"
-    },
-    {
-      "signAmount": 3.71,
-      "signDate": "2016-06-11"
-    },
-    {
-      "signAmount": 4.22,
-      "signDate": "2016-06-12"
-    },
-    {
-      "signAmount": 7.02,
-      "signDate": "2016-06-13"
-    },
-    {
-      "signAmount": 2.22,
-      "signDate": "2016-06-14"
-    },
-    {
-      "signAmount": 4.61,
-      "signDate": "2016-06-15"
-    },
-    {
-      "signAmount": 1.83,
-      "signDate": "2016-06-16"
-    },
-    {
-      "signAmount": 2.19,
-      "signDate": "2016-06-17"
-    },
-    {
-      "signAmount": 4.12,
-      "signDate": "2016-06-18"
-    },
-    {
-      "signAmount": 2.68,
-      "signDate": "2016-06-19"
-    },
-    {
-      "signAmount": 1.96,
-      "signDate": "2016-06-20"
-    },
-    {
-      "signAmount": 6.83,
-      "signDate": "2016-06-21"
-    },
-    {
-      "signAmount": 2.21,
-      "signDate": "2016-06-22"
-    },
-    {
-      "signAmount": 3.12,
-      "signDate": "2016-06-23"
-    },
-    {
-      "signAmount": 7.09,
-      "signDate": "2016-06-24"
-    },
-    {
-      "signAmount": 6.58,
-      "signDate": "2016-06-25"
-    },
-    {
-      "signAmount": 4.87,
-      "signDate": "2016-06-26"
-    },
-    {
-      "signAmount": 6.42,
-      "signDate": "2016-06-27"
-    },
-    {
-      "signAmount": 4.5,
-      "signDate": "2016-06-28"
-    },
-    {
-      "signAmount": 3.3,
-      "signDate": "2016-06-29"
-    },
-    {
-      "signAmount": 3.36,
-      "signDate": "2016-06-30"
+      "signAmount": 0.8,
+      "signDate": "2015-11-11"
     }
   ],
-  "totalAmount": 956.68,
-  "totalMonthAmount": 130.49,
-  "totalMonthSignTimes": 29,
-  "totalSignTimes": 346,
-  "nowDate":"2016-07-04"
+  "signType": -1,
+  "totalAmount": 1.6,
+  "totalMonthAmount": 1.6,
+  "totalMonthSignTimes": 2,
+  "totalSignTimes": 2,
+  "yearMonth": "2015-11"
 }
-

@@ -35,7 +35,7 @@ var server = http.createServer(function (request, response) {
                                        response.end(JSON.stringify(obj));
                                        return;
                                    }
-                                   if (pathname === '/pageD'{
+                                   if (pathname === '/pageD'){
                                        var count = pathquery.count;
                                        var page = pathquery.currPage;
                                        console.log('当前请求第' + page + '页')
@@ -44,7 +44,7 @@ var server = http.createServer(function (request, response) {
                                        response.end(JSON.stringify(data));
                                        return;
                                    }
-                                   )
+
                                    if (pathname === '/') {
                                        var con = fs.readFileSync("./account_qdxiangqing.html", "utf8");
                                        response.writeHead(200, {'content-type': 'text/html'});
