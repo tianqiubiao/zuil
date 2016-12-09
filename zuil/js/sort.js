@@ -13,3 +13,18 @@ function fastSort(){
 ¡¡¡¡}
 ¡¡¡¡return quickSort(left).concat([pivot], quickSort(right));
 }
+
+   
+   function selec(val,ele){
+        var opa=val.querySelectorAll('option');
+        for(var i=0;i<opa.length;i++){
+            if(opa[i].innerHTML===ele){
+                opa[i].selected = true
+                //val.className="colorG1";
+                return
+            }else {
+                continue;
+            }
+        }
+    }
+   // selec(query('#isAudit'),'Í¨¹ý');
